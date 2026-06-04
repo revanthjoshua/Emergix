@@ -1,0 +1,6 @@
+{
+  "name": "Emergix",
+  "description": "SMART EMERGENCY HOSPITAL CRM — A futuristic, real-time AI-powered emergency healthcare operating system and command center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
