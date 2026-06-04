@@ -19,8 +19,8 @@ export default defineConfig(() => {
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
     build: {
-      // This increases the allowed bundle file size limit to 1000kB to stop the warning
-      chunkSizeWarningLimit: 1000,
+      chunkSizeWarningLimit: 2000,
+      cssCodeSplit: false
     },
   };
 });
